@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f2"
+    android:orientation="vertical"
+    tools:context=".Tor">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/atras"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/tor"
+                android:textColor="#f0f0f0"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/tor1"
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:contentDescription="tor1"
+                app:srcCompat="@drawable/tor1" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginBottom="8dp"
+                android:text="@string/tor1"
+                android:textColor="@color/colorAccent"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/tor2"
+                android:layout_width="wrap_content"
+                android:layout_height="381dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="4dp"
+                android:contentDescription="tor2"
+                app:srcCompat="@drawable/tor2" />
+            <ImageView
+            android:id="@+id/tor3"
+            android:layout_width="wrap_content"
+            android:layout_height="381dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp"
+            android:contentDescription="tor3"
+            app:srcCompat="@drawable/tor3" />
+            <ImageView
+                android:id="@+id/tor4"
+                android:layout_width="wrap_content"
+                android:layout_height="381dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="4dp"
+                android:contentDescription="tor4"
+                app:srcCompat="@drawable/tor4" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

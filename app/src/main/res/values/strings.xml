@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PFKARM</string>
+    <string name="Titulo1">Menú</string>
+    <string name="Titulo2">ETHICAL HACKING</string>
+    <string name="btn1">Tor+Nmap+ProxyChains</string>
+    <string name="btn2">Lab Metasploitable</string>
+    <string name="btn3">Command Injection</string>
+    <string name="btn4">Autenticacion de doble Factor</string>
+    <string name="btn5">Websploit</string>
+    <string name="btn6">Info</string>
+    <string name="btn7">Informes</string>
+    <string name="atras">Back</string>
+    <string name="tor">Para realizar un escaneo de puertos anónimos, necesitamos instalar las siguientes
+herramientas:</string>
+    <string name="tor1">Colina
+        <br>
+            Instale Tor desde los repositorios estándar:
+        </br>
+</string>
+    <string name="meta">Metodología:
+1. Detectar host (es) vivo (s) 2. Puertos TCP abiertos 3. Puertos UDP abiertos 4. Detección de servicio 5. Enumeración de servicio 6. Enumeración de usuarios de los servicios 7. Perfil de contraseña 8. Fuerza bruta 9. Detectar sistema operativo en ejecución 10. Detección simple de vulnerabilidades 11. Detección manual de vulnerabilidades 12. Exploit Research 13. Exploit Fix 14. Explotación 15. Post-Enumeración 16. Escalada de privilegios 17. Pruebas
+1. Detectar el anfitrión vivo Así que al principio quiero detectar la IP de la máquina virtual metasploitable.  Usaré nmap para ello.</string>
+    <string name="nombre">Rangel Miguel Kevin Alejandro Ethical Hacking 2019</string>
+    <string name="Informes">Contactanos: naruto30010@gmail.com Telefono: 5610320907</string>
+
+</resources>
